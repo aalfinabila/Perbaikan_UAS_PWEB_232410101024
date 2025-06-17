@@ -1,0 +1,91 @@
+/* Menambahkan background pada seluruh halaman */
+body {
+  background: url('vbg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+}
+
+/* Atau jika ingin background warna solid */
+body {
+  background-color: #f0f0f0;  /* Ganti dengan warna yang diinginkan */
+}
+
+
+.heading {
+  text-align: center;
+  margin: 20px 0;
+  color: #333;
+}
+
+.heading span {
+  color: rgb(22, 22, 22);
+}
+
+.checkout,
+.invoice {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8); /* Transparansi putih */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.cart-summary {
+  margin-bottom: 20px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.content h3 {
+  margin: 0;
+}
+
+.price {
+  color: rgb(73, 75, 98);
+}
+
+.subtotal {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.checkout-form input,
+.checkout-form select,
+.checkout-form button {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.checkout-form input:focus,
+.checkout-form select:focus {
+  outline: none;
+  border-color: rgb(78, 76, 76);
+  box-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
+}
+
+.invoice-content p {
+  margin: 10px 0;
+}
+
+.btn {
+  background-color: rgb(65, 62, 62);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #d00;
+}
+

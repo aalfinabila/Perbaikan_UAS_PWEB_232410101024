@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belikopi</title>
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="logo.png" alt="" />
+      </a>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#products">Produk</a>
+        <a href="#contact">kontak</a>
+        <a href="#blogs">tentang</a>
+      </nav>
+
+      <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+      </div>
+
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box" class="fas fa-search"></label>
+      </div>
+
+      <div class="cart-items-container">
+        <div class="cart-items"></div>
+        <a href="transaksi.html" class="btn" id="checkout-btn">checkout now</a>
+      </div>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>Belikopi</h3>
+        <p>Nikmati Pengalaman Kopi Terbaik Bersama Belikopi!</p>
+      </div>
+    </section>
+
+    <!-- home section starts -->
+    <!-- header section ends -->
+
+    <section class="products" id="products">
+      <h1 class="heading">our <span>Produk</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="icons">
+            <a
+              href="#"
+              class="fas fa-shopping-cart add-to-cart-btn"
+              data-product="Kopi Susu Bandung"
+              data-price="10000"
+            ></a>
+          </div>
+          <div class="image">
+            <img src="gambar1.jpeg" alt="" />
+          </div>
+          <div class="content">
+            <h3>Kopi Susu bandung</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">Rp 10000</div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="icons">
+            <a
+              href="#"
+              class="fas fa-shopping-cart add-to-cart-btn"
+              data-product="Kopi Hitam"
+              data-price="7000"
+            ></a>
+          </div>
+          <div class="image">
+            <img src="gambar2.jpeg" alt="" />
+          </div>
+          <div class="content">
+            <h3>Kopi Hitam</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">Rp 7000</div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="icons">
+            <a
+              href="#"
+              class="fas fa-shopping-cart add-to-cart-btn"
+              data-product="Kopi Susu Gula Aren"
+              data-price="10000"
+            ></a>
+          </div>
+          <div class="image">
+            <img src="gambar3.jpeg" alt="" />
+          </div>
+          <div class="content">
+            <h3>Kopi Susu Gula Aren</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">Rp 10000</div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="icons">
+            <a
+              href="#"
+              class="fas fa-shopping-cart add-to-cart-btn"
+              data-product="Kopi Susu Gula Aren"
+              data-price="10000"
+            ></a>
+          </div>
+          <div class="image">
+            <img src="gambar4.jpeg" alt="" />
+          </div>
+          <div class="content">
+            <h3>Chocolate</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">Rp 10000</div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="icons">
+            <a
+              href="#"
+              class="fas fa-shopping-cart add-to-cart-btn"
+              data-product="Kopi Susu Gula Aren"
+              data-price="10000"
+            ></a>
+          </div>
+          <div class="image">
+            <img src="gambar5.jpeg" alt="" />
+          </div>
+          <div class="content">
+            <h3>Kopi Avocado</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">Rp 10000</div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="icons">
+            <a
+              href="#"
+              class="fas fa-shopping-cart add-to-cart-btn"
+              data-product="Kopi Susu Gula Aren"
+              data-price="10000"
+            ></a>
+          </div>
+          <div class="image">
+            <img src="gambar6.jpeg" alt="" />
+          </div>
+          <div class="content">
+            <h3>Chesee Milk Tea</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">Rp 10000</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Produk End -->
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>Hubungi</span></h1>
+
+      <div class="contact">
+        <div class="row">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="belikopi1.jpg" alt="Image 1" />
+              </div>
+              <div class="swiper-slide">
+                <img src="belikopi2.jpg" alt="Image 2" />
+              </div>
+              <div class="swiper-slide">
+                <img src="belikopi3.jpg" alt="Image 3" />
+              </div>
+              <!-- Add more images as needed -->
+            </div>
+            <!-- If you want navigation buttons -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <!-- contact section ends -->
+
+    <!-- blogs section starts  -->
+
+    <section class="blogs" id="blogs">
+      <div class="content">
+        <h1 class="heading"><span>Tentang</span></h1>
+
+        <h3>Belikopi</h3>
+        <p>
+          Belikopi adalah gerai kopi take away yang menyediakan berbagai 
+          pilihan minuman kopi dan non-kopi, serta makanan ringan seperti 
+          ropang (roti panggang). Didirikan pada 24 Desember 2019, Belikopi 
+          hadir untuk memberikan pengalaman menikmati kopi berkualitas dengan 
+          cara yang praktis dan menyenangkan. Kami berkomitmen untuk selalu
+          menyajikan minuman yang terbuat dari bahan berkualitas, dengan 
+          citarasa yang konsisten dan segar. Tidak hanya kopi, tetapi juga 
+          berbagai pilihan ropang yang sempurna untuk menemani setiap momen Anda.
+          Dengan semangat memberikan pelayanan terbaik, Belikopi terus 
+          berinovasi untuk memenuhi kebutuhan pecinta kopi, baik yang 
+          mencari sensasi rasa baru maupun yang ingin menikmati kopi favoritnya dengan praktis.
+        </p>
+      </div>
+    </section>
+    <!-- blogs section ends -->
+
+    <!-- footer section starts  -->
+
+    <footer class="footer">
+      </div>
+      <div class="contact-info">
+        <p>Hubungi Kami:</p>
+        <p>Instagram: <a href="https://instagram.com/belikopi">@belikopi</a></p>
+        <p>Website: <a href="https://www.belikopi.com">www.belikopi.com</a></p>
+        <p>Email: <a href="mailto:info@namakopi.com">info@belikopi.com</a></p>
+      </div>
+    </footer>
+    
+    <!-- footer section ends -->
+
+    <!-- custom js file link  -->
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input Transaksi</title>
+    <link rel="stylesheet" href="transaksi.css" />
+  </head>
+  <body>
+    <section class="checkout">
+      <h1 class="heading">Transaksi <span>Pembelian</span></h1>
+
+      <div class="cart-summary">
+        <h2>Rincian Produk</h2>
+        <div class="cart-items" id="cart-items"></div>
+        <div class="subtotal">
+          <h3>Subtotal: <span id="subtotal">Rp 0</span></h3>
+        </div>
+      </div>
+
+      <form class="checkout-form">
+        <h3>Informasi Pembeli</h3>
+        <input type="text" placeholder="Nama" id="name" required />
+        <input type="text" placeholder="Alamat" id="address" required />
+        <input type="tel" placeholder="Nomor Telepon" id="phone" required />
+
+        <h3>Metode Pembayaran</h3>
+        <select id="payment-method" required>
+          <option value="bank-transfer">Transfer Bank</option>
+          <option value="e-wallet">E-wallet</option>
+        </select>
+        
+        <button type="button" class="btn" id="pay-btn">Bayar</button>
+      </form>
+    </section>
+
+    <section class="invoice" id="invoice" style="display: none">
+      <h1 class="heading">Invoice <span>Pembelian</span></h1>
+      <div class="invoice-content" id="invoice-content"></div>
+    </section>
+
+    <script src="transaksi.js"></script>
+  </body>
+</html>
